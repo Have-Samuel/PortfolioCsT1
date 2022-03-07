@@ -89,7 +89,7 @@ nav .nav-mobile {
   font-weight: 400;
   font-size: 16px;
   padding: 1rem 0 0 0;
-  margin-top: 0.5rem;
+
 }
 
 .main-title {
@@ -98,7 +98,6 @@ nav .nav-mobile {
   font-weight: bold;
   font-size: 2.2rem;
   font-style: normal;
-  margin-top: 0.5rem;
 }
 
 .saying {
@@ -106,7 +105,6 @@ nav .nav-mobile {
   font-size: 18px;
   font-weight: 500;
   font-style: normal;
-  margin-top: 0.6rem;
 }
 
 .saying .paragragh1 {
@@ -114,3 +112,28 @@ nav .nav-mobile {
   margin-top: 0.8rem;
   word-spacing: 0.03em;
 }
+
+.section1 footer {
+  margin-left: 0.6rem;
+  padding: 1rem;
+}
+
+.main-programs {
+  background: url('/images/pattern_bg.png');
+  background-repeat: repeat;
+  background-color: #272a32;
+}
+
+.main-programs h2 {
+  text-align: center;
+  padding: 1rem;
+  color: #eee;
+}
+
+.fast-line {
+  width: 30%;
+  text-align: center;
+  margin: 0 auto;
+  background-color: red;
+}
+
