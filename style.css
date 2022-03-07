@@ -129,17 +129,20 @@ nav .nav-mobile {
   color: #eee;
 }
 
-.fast-line {
-  width: 20%;
+.main-programs .fast-line {
+  width: 15%;
   margin: 0 auto;
   background-color: red;
   margin-top: -20px;
+
+  /* margin: 15px auto; */
 }
 
 .program-parts {
-  margin-top: 2rem;
+  margin: 2rem 0.5rem;
   display: flex;
   flex-direction: column;
+  color: #eee;
 }
 
 .part {
@@ -152,4 +155,19 @@ nav .nav-mobile {
   height: auto;
   overflow: auto;
   background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
 }
+
+.part h3 {
+  color: #c52222;
+  margin: 1rem;
+}
+
+.part p {
+  text-align: left;
+  margin: 0 0.1rem;
+  font-size: 13px;
+  padding-left: 1rem;
+}
+
