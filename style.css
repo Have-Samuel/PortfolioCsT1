@@ -14,18 +14,58 @@ body {
   padding: 0;
 }
 
+ul {
+  list-style: none;
+}
+
 .container {
   display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgb(49, 47, 47);
+  height: 60vh;
+  display: none;
 }
 
 .btn-x {
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin: 2rem;
 }
 
-.ham-btn {
- 
-  padding: 10px;
-  height: 10px;
+/* .ham-btn {
+} */
+
+.close-btn {
+  font-size: xx-large;
+  text-decoration: none;
+  margin-top: -10px;
+  color: #e41515;
+}
+
+nav .nav-mobile {
+  padding: 1rem;
+}
+
+.nav-mobile ul a {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: white;
+  text-decoration: none;
+}
+
+.container nav a {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: white;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+.container nav .Lbutton {
+  margin-left: 2rem;
 }
