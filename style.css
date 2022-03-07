@@ -89,6 +89,8 @@ nav .nav-mobile {
   font-weight: 400;
   font-size: 16px;
   padding: 1rem 0 0 0;
+  margin-bottom: 7px;
+  margin-top: 30px;
 }
 
 .main-title {
@@ -104,12 +106,14 @@ nav .nav-mobile {
   font-size: 18px;
   font-weight: 500;
   font-style: normal;
+  color: #ae6565;
 }
 
 .saying .paragragh1 {
   font-family: 'poppins', sans-serif;
   margin-top: 0.8rem;
   word-spacing: 0.03em;
+  color: #272a32;
 }
 
 .section1 footer {
@@ -125,7 +129,7 @@ nav .nav-mobile {
 
 .main-programs h2 {
   text-align: center;
-  padding: 2rem 0;
+  padding: 2rem 0 1rem 0;
   color: #eee;
 }
 
@@ -133,41 +137,42 @@ nav .nav-mobile {
   width: 15%;
   margin: 0 auto;
   background-color: red;
-  margin-top: -20px;
-
+  margin-bottom: 1rem;
   /* margin: 15px auto; */
 }
 
 .program-parts {
-  margin: 2rem 0.5rem;
+  /* margin: 2rem 0.5rem; */
   display: flex;
   flex-direction: column;
   color: #eee;
+  gap: 10px;
 }
 
 .part {
-  width: 100%;
-  position: relative;
-  margin: 0 0 0.5em;
-  padding: 16px 0;
-  vertical-align: middle;
-  display: table;
-  height: auto;
-  overflow: auto;
-  background: rgba(255, 255, 255, 0.1);
+  width: 95%;
+  margin: 0 auto;
+  padding: 20px 10px;
+  background-color: rgba(255, 255, 255, 0.1);
   display: flex;
   align-items: center;
 }
 
+.part img {
+  width: 25%;
+  height: auto;
+  margin-right: 15px;
+}
+
 .part h3 {
   color: #c52222;
-  margin: 1rem;
+  width: 35%;
+  font-size: 0.9rem;
+  font-weight: bold;
 }
 
 .part p {
-  text-align: left;
-  margin: 0 0.1rem;
-  font-size: 13px;
-  padding-left: 1rem;
+  width: 65%;
+  font-size: 0.8rem;
 }
 
