@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Crete+Round&family=Dosis:wght@300;400&family=Inter:wght@600&family=Montserrat:wght@700&family=Poppins:wght@200;400;600&family=Quicksand:wght@700&family=Roboto:wght@700&family=Space+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Crete+Round&family=Dosis:wght@300;400&family=Inter:wght@600&family=Montserrat:wght@700&family=Poppins:wght@200;400;600&family=Quicksand:wght@700&family=Roboto:wght@700&family=Space+Mono:ital@1&display=swap');
 
 * {
   margin: 0;
@@ -68,4 +69,38 @@ nav .nav-mobile {
 
 .container nav .Lbutton {
   margin-left: 2rem;
+}
+
+.section1 {
+  font-family: 'Roboto', sans-serif;
+  background: url('./images/mobile_intro_bg.png');
+}
+
+.sub-text {
+  margin-left: 1.5rem;
+  text-align: left;
+}
+
+.welcome {
+  font-family: 'Roboto', sans-serif;
+  color: #c03f3f;
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+
+.main-title {
+  color: #c52222;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 2.2rem;
+  font-style: normal;
+}
+
+.saying {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  
 }
