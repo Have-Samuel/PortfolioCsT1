@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Crete+Round&family=Dosis:wght@300;400&family=Inter:wght@600&family=Montserrat:wght@700&family=Poppins:wght@200;400;600&family=Quicksand:wght@700&family=Roboto:wght@700&family=Space+Mono:ital@1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Crete+Round&family=Dosis:wght@300;400&family=Inter:wght@600&family=Montserrat:wght@700&family=Poppins:wght@200;400;600&family=Quicksand:wght@700&family=Roboto:wght@700&family=Space+Mono:ital@1&display=swap');
 
 * {
   margin: 0;
@@ -74,6 +73,7 @@ nav .nav-mobile {
 .section1 {
   font-family: 'Roboto', sans-serif;
   background: url('./images/mobile_intro_bg.png');
+  height: 100vh;
 }
 
 .sub-text {
@@ -89,14 +89,13 @@ nav .nav-mobile {
   font-weight: 400;
   font-size: 16px;
   padding: 1rem 0 0 0;
-
 }
 
 .main-title {
   color: #c52222;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  font-size: 2.2rem;
+  font-size: 7vh;
   font-style: normal;
 }
 
@@ -126,14 +125,31 @@ nav .nav-mobile {
 
 .main-programs h2 {
   text-align: center;
-  padding: 1rem;
+  padding: 2rem 0;
   color: #eee;
 }
 
 .fast-line {
-  width: 30%;
-  text-align: center;
+  width: 20%;
   margin: 0 auto;
   background-color: red;
+  margin-top: -20px;
 }
 
+.program-parts {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.part {
+  width: 100%;
+  position: relative;
+  margin: 0 0 0.5em;
+  padding: 16px 0;
+  vertical-align: middle;
+  display: table;
+  height: auto;
+  overflow: auto;
+  background: rgba(255, 255, 255, 0.1);
+}
