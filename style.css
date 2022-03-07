@@ -14,6 +14,18 @@ body {
   padding: 0;
 }
 
+.container {
+  display: flex;
+}
+
+.btn-x {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 .ham-btn {
-  background-color: red;
+ 
+  padding: 10px;
+  height: 10px;
 }
