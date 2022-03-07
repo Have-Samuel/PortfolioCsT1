@@ -6,3 +6,14 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
+/* Mobile Version */
+body {
+  margin: 0;
+  width: auto;
+  padding: 0;
+}
+
+.ham-btn {
+  background-color: red;
+}
