@@ -87,6 +87,14 @@ nav .nav-mobile {
   padding: 1rem;
 }
 
+.toplogo .toplogo1 {
+  margin-left: 7rem;
+}
+.toplogo .ham-btn {
+  width: 50%;
+  color: #272a32;
+}
+
 .welcome {
   font-family: 'Roboto', sans-serif;
   color: #c03f3f;
