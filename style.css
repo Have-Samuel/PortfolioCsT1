@@ -201,4 +201,20 @@ nav .nav-mobile {
   display: flex;
   margin: 1rem;
 }
-.artist
+
+.artist-heading {
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+
+.paragragh {
+  margin-bottom: 0.4rem;
+  margin-left: 0.5rem;
+  font-size: 12px;
+  color: #c52222;
+}
+
+.artist-data {
+  font-size: 12px;
+  width: 90%;
+}
