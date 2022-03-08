@@ -75,7 +75,7 @@ nav .nav-mobile {
 
 .section1 {
   font-family: 'Roboto', sans-serif;
-  height: 100vh;
+  height: 70vh;
 }
 
 .sub-text {
@@ -109,7 +109,7 @@ nav .nav-mobile {
   color: #c52222;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  font-size: 7vh;
+  font-size: 4vh;
   font-style: normal;
   background-image: url('https://unsplash.it/800');
   background-repeat: no-repeat;
@@ -241,18 +241,17 @@ nav .nav-mobile {
 .aboutme-content {
   display: flex;
   flex-direction: column;
-  text-align: left;
   padding: 1rem;
   font-family: 'Roboto', sans-serif;
   background: url('./images/mobile_intro_bg.png');
-  height: 85vh;
+  height: 55vh;
 }
 
 .aboutme-heading {
   color: #c52222;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  font-size: 7vh;
+  font-size: 4vh;
   font-style: normal;
   background-repeat: no-repeat;
   background-size: cover;
@@ -262,7 +261,7 @@ nav .nav-mobile {
 
 .aboutme-text {
   font-family: 'Inter', sans-serif;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 500;
   margin-top: 0.8rem;
   word-spacing: 0.03em;
@@ -290,13 +289,57 @@ nav .nav-mobile {
   text-align: center;
   align-items: center;
   font-family: 'Inter', sans-serif;
-  padding: 2rem;
+  padding: 1rem;
   color: #0f0f1098;
 }
 
 .aboutme-line {
   width: 10%;
   margin: 0 auto;
-  color: #7c7b7b04;
+  color: #fa0303;
+  text-align: center;
 }
 
+.aboutme-info {
+  align-items: center;
+  font-size: 13px;
+  margin: 2rem 0;
+}
+
+.aboutme-info p {
+  text-align: center;
+  padding: 1rem;
+  color: gray;
+}
+
+.Image-logo {
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid gray;
+  margin: 0 0.8rem;
+}
+
+hr {
+  margin: 3rem 0;
+}
+
+.Previous-events h3 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #615e5e;
+  padding: 2rem 0 1rem 0;
+}
+
+.event-line {
+  width: 15%;
+  margin: 0 auto;
+  background-color: #fa0404;
+}
+
+.Previous-events p {
+  color: gray;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+.
