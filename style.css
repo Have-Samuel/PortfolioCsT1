@@ -90,6 +90,7 @@ nav .nav-mobile {
 .toplogo .toplogo1 {
   margin-left: 7rem;
 }
+
 .toplogo .ham-btn {
   width: 50%;
   color: #272a32;
@@ -111,9 +112,11 @@ nav .nav-mobile {
   font-weight: bold;
   font-size: 7vh;
   font-style: normal;
-  background-image: url('https://unsplash.it/890');
+  background-image: url('https://unsplash.it/700');
   background-repeat: no-repeat;
-  
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
 .saying .paragragh1 {
@@ -132,6 +135,7 @@ nav .nav-mobile {
   background: url('/images/pattern_bg.png');
   background-repeat: repeat;
   background-color: #272a32;
+  margin-top: 2rem;
 }
 
 .main-programs h2 {
@@ -185,6 +189,7 @@ nav .nav-mobile {
 .artists {
   display: flex;
   flex-direction: column;
+  margin-top: 3rem;
 }
 
 .artists h2 {
