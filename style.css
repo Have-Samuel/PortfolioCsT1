@@ -228,3 +228,48 @@ nav .nav-mobile {
 .artist-data {
   font-size: 12px;
 }
+
+.second-heading {
+  font-family: 'Roboto', sans-serif;
+  color: #c03f3f;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 1rem 0 0 0;
+  margin-bottom: 7px;
+  /* margin-top: 30px;
+  margin-left: 7rem; */
+  margin: 10px auto;
+}
+
+.aboutme-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.6rem;
+  text-align: left;
+  padding: 1rem;
+  font-family: 'Roboto', sans-serif;
+  background: url('./images/mobile_intro_bg.png');
+  height: 100vh;
+}
+
+.aboutme-heading {
+  color: #c52222;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 7vh;
+  font-style: normal;
+  background-image: url('https://unsplash.it/700');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-align: left;
+}
+
+.paragragh2 {
+  font-family: 'poppins', sans-serif;
+  margin-top: 0.8rem;
+  word-spacing: 0.03em;
+  color: #272a32;
+  background-color: #f8f4f4;
+}
