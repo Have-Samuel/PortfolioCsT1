@@ -235,9 +235,6 @@ nav .nav-mobile {
   font-weight: 400;
   font-size: 16px;
   padding: 1rem 0 0 0;
-  margin-bottom: 7px;
-  /* margin-top: 30px;
-  margin-left: 7rem; */
   margin: 10px auto;
 }
 
@@ -249,7 +246,6 @@ nav .nav-mobile {
   font-family: 'Roboto', sans-serif;
   background: url('./images/mobile_intro_bg.png');
   height: 100vh;
-
 }
 
 .aboutme-heading {
