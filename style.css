@@ -342,4 +342,60 @@ hr {
   padding: 1.5rem 0;
 }
 
-.
+.event-card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.event-card img {
+  width: 90%;
+  /* height: auto; */
+  margin: 20px auto;
+  display: block;
+  filter: contrast(20%);
+}
+
+.event-card .year {
+  color: rgb(233, 212, 212);
+  position: absolute;
+  left: 5%;
+  top: 15%;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.event-card .city {
+  color: rgb(231, 216, 216);
+  position: absolute;
+  left: 5%;
+  top: 36%;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.event-card p {
+  margin: 10px auto;
+  width: 90%;
+}
+
+.partner {
+  background-color: #272a32;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.partnerM h3 {
+  color: #eee;
+  padding: 2rem;
+}
+
+.p-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 70px auto;
+}
+
