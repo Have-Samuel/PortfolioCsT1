@@ -394,8 +394,11 @@ hr {
 .p-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
   margin: 70px auto;
 }
 
+.partner-img img {
+width: 40%;
+}
