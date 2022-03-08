@@ -244,12 +244,12 @@ nav .nav-mobile {
 .aboutme-content {
   display: flex;
   flex-direction: column;
-  margin-left: 0.6rem;
   text-align: left;
   padding: 1rem;
   font-family: 'Roboto', sans-serif;
   background: url('./images/mobile_intro_bg.png');
   height: 100vh;
+
 }
 
 .aboutme-heading {
@@ -272,4 +272,5 @@ nav .nav-mobile {
   word-spacing: 0.03em;
   color: #272a32;
   background-color: #f8f4f4;
+
 }
