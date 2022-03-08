@@ -25,7 +25,7 @@ ul {
   flex-direction: column;
   justify-content: space-around;
   background-color: rgb(49, 47, 47);
-  height: 60vh;
+  height: 65vh;
   display: none;
 }
 
@@ -35,7 +35,8 @@ ul {
   margin: 2rem;
 }
 
-/* .ham-btn {
+/* .container .ham-btn {
+  display: block;
 } */
 
 .close-btn {
@@ -82,7 +83,7 @@ nav .nav-mobile {
   display: flex;
   flex-direction: column;
   margin-left: 0.6rem;
-  margin-top: 4rem;
+  /* margin-top: 4rem; */
   text-align: left;
   padding: 1rem;
 }
