@@ -175,6 +175,11 @@ nav .nav-mobile {
   font-size: 0.8rem;
 }
 
+.artists {
+  display: flex;
+  flex-direction: column;
+}
+
 .artists h2 {
   margin: 10px;
   text-align: center;
@@ -186,3 +191,14 @@ nav .nav-mobile {
   background-color: #fa0404;
 }
 
+.artist-info {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+
+.artist-card {
+  display: flex;
+  margin: 1rem;
+}
+.artist
