@@ -6,17 +6,23 @@ const menuIcon = document.querySelector('.ham-btn');
 const navLinks = document.querySelector('.container');
 
 menuIcon.addEventListener('click', () => {
-  navLinks.classList.add('change');
+  navLinks.classList.toggle('change');
+  console.log('Hello');
 });
 
-closeIcon.addEventListener('click', () => {
-  navLinks.classList.remove('change');
-});
+const icons = document.querySelector('.toplogo1');
+icons.addEventListener('click', => {
+  
+})
+// closeIcon.addEventListener('click', () => {
+//   navLinks.classList.remove('change');
+// });
 
-const listItems = document.querySelectorAll('.nav-mobile');
+// const listItems = document.querySelectorAll('.nav-mobile');
 
-listItems.forEach((element) => {
-  element.addEventListener('click', () => {
-    navLinks.classList.remove('change');
-  });
-});
+// listItems.forEach((element) => {
+//   element.addEventListener('click', () => {
+//     navLinks.classList.remove('change');
+//   });
+// });addE
+(
