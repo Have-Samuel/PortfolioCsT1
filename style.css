@@ -421,18 +421,43 @@ hr {
     display: none;
   }
 
+  .toplogo1 {
+    display: none;
+  }
+
   .fast-nav {
     background-color: #272a32;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
   }
 
   .social ul li a {
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: row;
+    text-decoration: none;
+    color: aliceblue;
   }
 
-  .social ul li a img {
-    width: 2%;
+  .item-bar {
+    background-color: mistyrose;
+    flex-direction: column;
+  }
+
+  .nav-last {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-basis: auto;
+  }
+
+  .nav-last ul li a {
+    flex-direction: column;
+    color: #7f8081;
+    text-decoration: none;
   }
 
 }
