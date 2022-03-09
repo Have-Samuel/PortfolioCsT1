@@ -26,7 +26,7 @@ ul {
   justify-content: space-around;
   background-color: rgb(49, 47, 47);
   height: 65vh;
-  display: none;
+  display: block;
 }
 
 .btn-x {
@@ -39,15 +39,13 @@ ul {
   display: block;
 } */
 
-.close-btn {
-  font-size: xx-large;
-  text-decoration: none;
-  margin-top: -10px;
-  color: #e41515;
+.btn-x .close-btn img {
+  margin-top: 30px;
 }
 
-nav .nav-mobile {
+.container .nav-mobile {
   padding: 1rem;
+  color: red;
 }
 
 .change {

@@ -1,5 +1,5 @@
 // mobile-menu
-const closeIcon = document.querySelector('.btn-x');
+const closeIcon = document.querySelector('.close-btn');
 
 const menuIcon = document.querySelector('.toplogo');
 
