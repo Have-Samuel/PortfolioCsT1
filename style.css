@@ -187,9 +187,9 @@ ul {
 }
 
 .artists .second-line {
-  width: 20%;
+  width: 6%;
   margin: 10px auto;
-  color: #fa0404;
+  background-color: #fa0404;
 }
 
 .artist-info {
@@ -421,9 +421,9 @@ hr {
   display: none;
 }
 
-/* .item-bar {
+.item-bar {
   display: none;
-} */
+}
 
 /* desktop version */
 
@@ -462,7 +462,6 @@ hr {
     background-color: mistyrose;
     display: flex;
     justify-content: flex-end;
-    border-bottom: 1px thin ;
   }
 
   .nav-last ul {
@@ -554,5 +553,19 @@ hr {
     margin-top: 1rem;
     text-align: center;
     font-weight: 100;
+  }
+
+  .artists h2 {
+    font-weight: 100;
+  }
+
+  .artist-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .artist-card {
+    display: flex;
+    flex-wrap: wrap;
   }
 }

@@ -10,19 +10,17 @@ menuIcon.addEventListener('click', () => {
   console.log('Hello');
 });
 
-const icons = document.querySelector('.toplogo1');
-icons.addEventListener('click', => {
-  
-})
-// closeIcon.addEventListener('click', () => {
-//   navLinks.classList.remove('change');
-// });
+// const icons = document.querySelector('.toplogo1');
+// icons.addEventListener('click', () => {
 
-// const listItems = document.querySelectorAll('.nav-mobile');
+closeIcon.addEventListener('click', () => {
+  navLinks.classList.remove('change');
+});
 
-// listItems.forEach((element) => {
-//   element.addEventListener('click', () => {
-//     navLinks.classList.remove('change');
-//   });
-// });addE
-(
+const listItems = document.querySelectorAll('.nav-mobile');
+
+listItems.forEach((element) => {
+  element.addEventListener('click', () => {
+    navLinks.classList.remove('change');
+  });
+});
