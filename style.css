@@ -35,6 +35,17 @@ ul {
   margin: 2rem;
 }
 
+.toplogo .toplogo1 {
+  margin-left: 7rem;
+}
+
+.toplogo .ham-btn {
+  width: 50%;
+  color: #272a32;
+  position: fixed;
+  z-index: 80;
+}
+
 .change {
   right: 0;
 }
@@ -69,15 +80,6 @@ ul {
   margin-left: 0.6rem;
   text-align: left;
   padding: 1rem;
-}
-
-.toplogo .toplogo1 {
-  margin-left: 7rem;
-}
-
-.toplogo .ham-btn {
-  width: 50%;
-  color: #272a32;
 }
 
 .welcome {
@@ -410,4 +412,10 @@ hr {
 .last-footer p {
   width: 70%;
   font-size: 11px;
+}
+
+/* desktop version */
+
+@media (min-width: 768px){
+
 }
