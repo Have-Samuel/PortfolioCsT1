@@ -466,6 +466,24 @@ hr {
     background-repeat: no-repeat;
     background-size: cover;
     background-clip: content-box;
+    height: 100vh;
+  }
+
+  .welcome {
+    font-size: 5vh;
+    margin-left: 4rem;
+  }
+
+  .main-title {
+    font-size: 9vh;
+    margin-left: 4rem;
+  }
+
+  .paragragh1 {
+    width: 60%;
+    margin-left: 4rem;
+    border: 2px solid white;
+    background-color: #7f8081;
   }
 
 }
