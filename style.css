@@ -417,5 +417,22 @@ hr {
 /* desktop version */
 
 @media (min-width: 768px){
+  .ham-btn {
+    display: none;
+  }
+
+  .fast-nav {
+    background-color: #272a32;
+  }
+
+  .social ul li a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .social ul li a img {
+    width: 2%;
+  }
 
 }
