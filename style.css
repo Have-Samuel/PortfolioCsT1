@@ -13,7 +13,6 @@ body {
   margin: 0;
   width: auto;
   padding: 0;
-  font-family: Lato, Arial, Helvetica, sans-serif;
 }
 
 ul {
@@ -24,9 +23,10 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-color: rgb(49, 47, 47);
-  height: 65vh;
-  display: block;
+  overflow-y: hidden;
+  background-color: #312f2f;
+  height: 100vh;
+  display: none;
 }
 
 .btn-x {
@@ -35,40 +35,23 @@ ul {
   margin: 2rem;
 }
 
-/* .container .ham-btn {
-  display: block;
-} */
-
-.btn-x .close-btn img {
-  margin-top: 30px;
-}
-
-.container .nav-mobile {
-  padding: 1rem;
-  color: red;
-}
-
 .change {
   right: 0;
 }
 
-.nav-mobile ul a {
-  font-family: 'Inter', sans-serif;
-  font-size: 18px;
+.nav-mobile a {
+  font-family: 'poppins', sans-serif;
+  font-size: 20px;
   font-weight: 400;
   letter-spacing: 0;
   color: white;
   text-decoration: none;
+  margin-left: 0.8rem;
 }
 
-.container nav a {
-  font-family: 'Inter', sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  letter-spacing: 0;
-  color: white;
-  text-decoration: none;
-  margin-left: 1rem;
+.container ul li {
+  padding: 1.2rem;
+  font-size: 25px;
 }
 
 .container nav .Lbutton {
