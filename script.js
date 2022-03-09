@@ -7,11 +7,7 @@ const navLinks = document.querySelector('.container');
 
 menuIcon.addEventListener('click', () => {
   navLinks.classList.toggle('change');
-  console.log('Hello');
 });
-
-// const icons = document.querySelector('.toplogo1');
-// icons.addEventListener('click', () => {
 
 closeIcon.addEventListener('click', () => {
   navLinks.classList.remove('change');
