@@ -543,6 +543,10 @@ hr {
     margin: -0.2rem;
   }
 
+  .part:hover {
+    border: 1px solid white;
+  }
+
   .program-parts h3 {
     margin-top: 1rem;
     font-size: 19px;
@@ -561,11 +565,35 @@ hr {
 
   .artist-section {
     display: flex;
+    flex-direction: row;
+    /* max-width: 240px; */
     flex-wrap: wrap;
   }
 
   .artist-card {
     display: flex;
     flex-wrap: wrap;
+    min-width: 40%;
+    flex-basis: 50%;
+    
+  }
+
+  .second-heading {
+    font-size: 15px;
+    color: #fa4503;
+  }
+
+  .aboutme-heading {
+    color: #fa4503;
+    text-align: center;
+    font-size: 7vh;
+  }
+
+  .contact {
+    margin-top: 1rem;
+  }
+
+  .aboutme-paragraph {
+    margin-top: 2rem;
   }
 }
