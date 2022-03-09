@@ -50,6 +50,10 @@ nav .nav-mobile {
   padding: 1rem;
 }
 
+.change {
+  right: 0;
+}
+
 .nav-mobile ul a {
   font-family: 'Inter', sans-serif;
   font-size: 18px;
