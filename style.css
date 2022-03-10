@@ -137,7 +137,7 @@ ul {
 .main-programs .fast-line {
   width: 4%;
   margin: 0 auto;
-  border-color: #c52222;;
+  border-color: #c52222;
   margin-bottom: 1rem;
 }
 
@@ -483,11 +483,11 @@ hr {
     margin-right: 13rem;
   }
 
-  .nav-last ul li a {
+  /* .nav-last ul li a {
     flex-direction: column;
     color: #12161a;
     text-decoration: none;
-  }
+  } */
 
   .nav-last ul li a:hover {
     color: #ff0707;
