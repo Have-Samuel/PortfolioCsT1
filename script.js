@@ -23,5 +23,8 @@ listItems.forEach((element) => {
 /
 
 // Deskop- Version
-const speakers = [
-]
+const speakers = `[ {
+  
+
+}
+]`
