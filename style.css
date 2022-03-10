@@ -492,7 +492,7 @@ hr {
   }
 
   .nav-last .nav-last_img {
-    margin-right: 12.5rem;
+    margin-right: 32rem;
   }
 
   .nav-last ul li a {
@@ -635,15 +635,15 @@ hr {
   }
 
   .email {
-    padding: 2rem;
+    padding:1.2rem;
   }
 
   .aboutme-paragraph {
-    padding: 2rem;
+    padding: 1rem;
   }
 
   .aboutme-line {
-    margin-top: 1rem;
+    margin-top: 3rem;
     width: 10%;
   }
 
@@ -677,5 +677,4 @@ hr {
     display: flex;
     gap: 40%;
   }
-
 }
