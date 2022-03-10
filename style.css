@@ -467,6 +467,7 @@ hr {
     background-color: mistyrose;
     display: flex;
     justify-content: flex-end;
+    text-shadow:rgba(36, 30, 30, 0.1);
   }
 
   .nav-last ul {
