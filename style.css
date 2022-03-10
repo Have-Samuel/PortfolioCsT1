@@ -25,7 +25,7 @@ ul {
   justify-content: space-around;
   overflow-y: hidden;
   background-color: #312f2f;
-  height: 90vh;
+  height: 100%;
   position: fixed;
   top: 0;
   left: -100%;
@@ -73,8 +73,9 @@ ul {
 }
 
 .section1 {
+  background: url('./images/mobile_intro_bg.png');
   font-family: 'Roboto', sans-serif;
-  height: 70vh;
+  height: 80vh;
 }
 
 .sub-text {
@@ -125,7 +126,6 @@ ul {
   background: url('/images/pattern_bg.png');
   background-repeat: repeat;
   background-color: #272a32;
-  margin-top: 2rem;
   padding-bottom: 1rem;
 }
 
@@ -198,8 +198,8 @@ ul {
 }
 
 .artists .second-line {
-  width: 6%;
-  margin: 10px auto;
+  width: 4%;
+  margin: 5px auto;
   border-color: #fa0404;
 }
 
@@ -386,7 +386,7 @@ hr {
   background-color: #272a32;
   margin-top: 2rem;
   text-align: center;
-  height: 55vh;
+  padding-bottom: 1rem;
 }
 
 .partnerM h3 {
@@ -492,7 +492,7 @@ hr {
   }
 
   .nav-last .nav-last_img {
-    margin-right: 16.5rem;
+    margin-right: 12.5rem;
   }
 
   .nav-last ul li a {
@@ -548,10 +548,11 @@ hr {
   .main-programs {
     margin-top: 0;
     display: flex;
+    align-items: center;
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
-    height: 85vh;
+    height: auto;
   }
 
   .main-programs .program-parts {
@@ -566,10 +567,8 @@ hr {
   }
 
   .viewer {
-    /* display: block;
-    flex-direction: column; */
-    /* position: relative; */
-    /* left: 40%; */
+    background: none;
+    text-decoration: underline;
     margin: 2rem;
   }
 
@@ -662,10 +661,6 @@ hr {
   .event-card {
     width: 50%;
     margin: auto;
-  }
-
-  .partner {
-    height: 56vh;
   }
 
   .partnerM h3 {
