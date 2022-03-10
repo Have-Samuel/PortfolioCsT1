@@ -20,3 +20,8 @@ listItems.forEach((element) => {
     navLinks.classList.remove('change');
   });
 });
+/
+
+// Deskop- Version
+const speakers = [
+]
