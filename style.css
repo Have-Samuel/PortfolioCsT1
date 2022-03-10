@@ -25,7 +25,7 @@ ul {
   justify-content: space-around;
   overflow-y: hidden;
   background-color: #312f2f;
-  height: 100vh;
+  height: 70vh;
   position: fixed;
   top: 0;
   left: -100%;
@@ -36,7 +36,7 @@ ul {
 .btn-x {
   display: flex;
   justify-content: space-between;
-  margin: 2rem;
+  margin: 1rem 0 0 2rem;
 }
 
 .toplogo .toplogo1 {
@@ -50,7 +50,7 @@ ul {
 }
 
 .change {
-  right: 0;
+  left: 0;
 }
 
 .nav-mobile a {
