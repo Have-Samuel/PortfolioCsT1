@@ -22,21 +22,21 @@ listItems.forEach((element) => {
 });
 
 // Deskop- Version
-const speakers = [
+const listOfArtists = [
   {
-    artistImage: './images/lecture.png',
+    artistImage: './images/speaker_01 (1).png',
     title: 'Yohai Benkler',
     subTitle: 'Professor at Harvard Law School',
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   },
   {
     artistImage: './images/speaker_02.png',
     title: 'Jeon Gil-nam',
     subTitle: 'Emeritus Professor, (KAIST)',
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   },
   {
-    artistImage: './Images/pictures/speaker_01.png',
+    artistImage: './images/speaker_03.png',
     title: 'Noh So-youn',
     subTitle: 'Art Center Nabi Director, CC Korea Director',
     content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
@@ -54,13 +54,13 @@ const speakers = [
     content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   },
   {
-    artistImage: '/images/speaker_06.png',
+    artistImage: './images/speaker_06.png',
     title: 'Ryan Merkley',
-    subTitle: 'Full stack developer fro more than 10 yeats with react JS',
+    subTitle: 'Creative Commons CEO, Former Mozilla Foundation COO',
     content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   },
 ];
-
+const artists = document.querySelector('#artists');
 const createArtistCard = (artist) => {
   const reputation = document.createElement('div');
   reputation.classList.add('artist-section');
@@ -68,6 +68,7 @@ const createArtistCard = (artist) => {
   const artistImgContainer = document.createElement('div');
   artistImgContainer.classList.add('artist-card');
   const artistImg = document.createElement('img');
+  artistImg.src = artist.artistImage;
   artistImgContainer.appendChild(artistImg);
   reputation.appendChild(artistImgContainer);
 
@@ -76,12 +77,28 @@ const createArtistCard = (artist) => {
 
   const title = document.createElement('h3');
   title.classList.add('artist-heading');
+  title.textContent = artist.title;
   text.appendChild(title);
 
   const subtitle = document.createElement('p');
-  subtitle.classList.add('paragragh2, artist-data');
+  subtitle.classList.add('paragragh');
+  subtitle.textContent = artist.subTitle;
   text.appendChild(subtitle);
 
+  const content = document.createElement('p');
+  content.classList.add('artist-data');
+  content.textContent = artist.content;
+  text.appendChild(content);
+
   reputation.appendChild(subtitle);
+  reputation.appendChild(text);
   return reputation;
 };
+
+const updataArtists = (artistSection) => {
+  for (let i = 0; i < listOfArtists.length; i += 1) {
+    artistSection.appendChild(createArtistCard(listOfArtists[i]));
+  }
+};
+
+updataArtists(artists);

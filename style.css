@@ -631,6 +631,8 @@ hr {
   .event-card {
     width: 50%;
     margin: auto;
+    display: flex;
+    flex-direction: row;
   }
 
   .partner {
