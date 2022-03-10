@@ -628,11 +628,15 @@ hr {
     width: 40%;
   }
 
+  .event-cards {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+  }
+
   .event-card {
     width: 50%;
     margin: auto;
-    display: flex;
-    flex-direction: row;
   }
 
   .partner {
