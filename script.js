@@ -60,6 +60,7 @@ const listOfArtists = [
     content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   },
 ];
+
 const artists = document.querySelector('#artists');
 const createArtistCard = (artist) => {
   const reputation = document.createElement('div');
