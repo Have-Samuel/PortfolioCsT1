@@ -61,7 +61,7 @@ const listOfArtists = [
   },
 ];
 
-const artists = document.querySelector('#artists');
+const artists = document.querySelector('#artist-section');
 const createArtistCard = (artist) => {
   const reputation = document.createElement('div');
   reputation.classList.add('artist-section');
@@ -91,7 +91,6 @@ const createArtistCard = (artist) => {
   content.textContent = artist.content;
   text.appendChild(content);
 
-  reputation.appendChild(subtitle);
   reputation.appendChild(text);
   return reputation;
 };
