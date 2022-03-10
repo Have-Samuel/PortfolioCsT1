@@ -1,56 +1,53 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Have - Capstone-project
 
-# Project Name
+- Responsive site from Mobile to desktop.
+- Based on [Cindy Shin in Behance](https://www.behance.net/adagio07) design.
+- Rock festival thematic.
+- Artist images from:
+  _radionica_,
+  _The Sun_,
+  _The Rolling Stones_,
+  and _Aspen Magazine_
+- Location image:
+  _Chiba-Japan Massive Convention Centre_,
+  _Sidney-Astelus image_,
+  and _Melbourne-Growpro image_
+- Icons source: [Google icons](https://fonts.google.com/icons)
+- Png images: [PNG Wing](https://www.pngwing.com/)
 
-> Description the project.
-
+## Video presentation [link]()
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML.
+- CSS.
+- JavaScript
+- Check the code with Linters tests:
+  _Webhint_
+  _Stylelint_
+  _Lighthouse_
+  _esLint_
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo](https://have-samuel.github.io/PortfolioCsT1/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+-To get a local copy up and running follow these simple steps:
 
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+- Go to the folder where you want to store the project, and clone the repository:
+- SSH: git@github.com:Have-Samuel/PortfolioCsT1.git
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Have Samuel**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/)
+- Twitter: [@twitterhandle](https://twitter.com/home)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/feed/)
 
 ## 🤝 Contributing
 
