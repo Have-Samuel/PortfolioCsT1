@@ -82,6 +82,6 @@ const createArtistCard = (artist) => {
   subtitle.classList.add('paragragh2, artist-data');
   text.appendChild(subtitle);
 
-  const 
-   
-}
+  reputation.appendChild(subtitle);
+  return reputation;
+};
