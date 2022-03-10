@@ -467,7 +467,7 @@ hr {
     background-color: mistyrose;
     display: flex;
     justify-content: flex-end;
-    text-shadow:rgba(36, 30, 30, 0.1);
+    text-shadow:rgba(255, 255, 255, 0.1);
   }
 
   .nav-last ul {
@@ -492,7 +492,7 @@ hr {
   }
 
   .nav-last ul li a:hover {
-    color: rgb(255, 7, 7);
+    color: #ff0707;
   }
 
   .Fbutton {

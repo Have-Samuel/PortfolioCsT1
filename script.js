@@ -20,11 +20,45 @@ listItems.forEach((element) => {
     navLinks.classList.remove('change');
   });
 });
-/
 
 // Deskop- Version
-const speakers = `[ {
-  
+const speakers = [
+  {
+    witnessImage: './images/lecture.png',
+    title: 'Yohai Benkler',
+    subTitle: 'Professor at Harvard Law School',
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+  },
+  {
+    witnessImage: './images/speaker_02.png',
+    title: 'Jeon Gil-nam',
+    subTitle: 'Emeritus Professor, (KAIST)',
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+  },
+  {
+    witnessImage: './Images/pictures/speaker_01.png',
+    title: 'Noh So-youn',
+    subTitle: 'Art Center Nabi Director, CC Korea Director',
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  },
+  {
+    witnessImage: './images/speaker_04.png',
+    title: 'Julia Leda',
+    subTitle: 'Head of the Young Pirates of Europe',
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  },
+  {
+    witnessImage: './images/speaker_05.png',
+    title: 'Layla Tretikov',
+    subTitle: 'Secretary General of the Wikimedia Foundation',
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  },
+  {
+    witnessImage: '/images/speaker_06.png',
+    title: 'Ryan Merkley',
+    subTitle: 'Full stack developer fro more than 10 yeats with react JS',
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  },
+];
 
-}
-]`
+
