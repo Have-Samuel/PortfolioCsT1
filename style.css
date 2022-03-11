@@ -678,6 +678,12 @@ ul {
 
   .last-footer {
     display: flex;
-    gap: 60%;
+    gap: 40%;
+  }
+
+  .last-footer .para-footer {
+    color: black;
+    font-family: 'Inter', serif;
+    margin-top: 1rem;
   }
 }
