@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
 }
 
 /* Mobile Version */
@@ -24,7 +24,7 @@ ul {
   flex-direction: column;
   justify-content: space-around;
   overflow-y: hidden;
-  background-color: #312f2f;
+  background-color: rgba(224, 40, 50, 0.59);
   height: 100%;
   position: fixed;
   top: 0;
@@ -55,7 +55,7 @@ ul {
 .nav-mobile a {
   font-family: 'poppins', sans-serif;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: 0;
   color: white;
   text-decoration: none;
@@ -152,7 +152,7 @@ ul {
 .part {
   width: 95%;
   margin: 0 auto;
-  padding: 20px 10px;
+  padding: 20px 7px;
   background-color: rgba(255, 255, 255, 0.1);
   display: flex;
   align-items: center;
@@ -199,7 +199,7 @@ ul {
 
 .artists .second-line {
   width: 4%;
-  margin: 5px auto;
+  margin: 3px auto;
   border-color: #fa0404;
 }
 
@@ -383,7 +383,7 @@ hr {
 }
 
 .partner {
-  background-color: #272a32;
+  background-color: #252930;
   margin-top: 2rem;
   text-align: center;
   padding-bottom: 1rem;
@@ -643,8 +643,8 @@ hr {
   }
 
   .aboutme-line {
-    margin-top: 3rem;
-    width: 10%;
+    margin-top: 1.5rem;
+    width: 4%;
   }
 
   .Image-logo {
