@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Crete+Round&family=Dosis:wght@300;400&family=Inter:wght@600&family=Montserrat:wght@700&family=Poppins:wght@200;400;600&family=Quicksand:wght@700&family=Roboto:wght@700&family=Space+Mono:ital@1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Crete+Round&family=Dosis:wght@300;400&family=Inter:wght@600&family=Lato:wght@700&family=Montserrat:wght@700&family=Poppins:wght@200;400;600&family=Quicksand:wght@700&family=Roboto:wght@700&family=Space+Mono:ital@1&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.last-footer {
+  background-color: black;
+  color: aliceblue;
+  padding: 2rem;
+  gap: 10%;
+  margin-bottom: -2rem;
+}
+
+@media (min-width: 768px) {
+  .last-footer {
+    background-color: black;
+    padding: 3rem;
+    gap: 55%;
+    margin-bottom: -4rem;
+  }
+
+  .para-footer {
+    color: aliceblue;
+    margin: auto  0;
+  }
+}

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Crete+Round&family=Dosis:wght@300;400&family=Inter:wght@600&family=Montserrat:wght@700&family=Poppins:wght@200;400;600&family=Quicksand:wght@700&family=Roboto:wght@700&family=Space+Mono:ital@1&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Crete+Round&family=Dosis:wght@300;400&family=Inter:wght@600&family=Lato:wght@700&family=Montserrat:wght@700&family=Poppins:wght@200;400;600&family=Quicksand:wght@700&family=Roboto:wght@700&family=Space+Mono:ital@1&display=swap');
 
 * {
   margin: 0;
@@ -30,6 +31,7 @@ ul {
   left: -100%;
   width: 100%;
   transition: 0.01s;
+  font-family: 'Space Mono', monospace;
 }
 
 .btn-x {
@@ -242,10 +244,8 @@ ul {
 .aboutme-content {
   display: flex;
   flex-direction: column;
-  padding: 1rem;
   font-family: 'Roboto', sans-serif;
   background: url('./images/mobile_intro_bg.png');
-  height: 55vh;
 }
 
 .aboutme-heading {
@@ -295,10 +295,9 @@ ul {
 }
 
 .aboutme-line {
-  width: 7%;
+  width: 4%;
   margin: 0 auto;
-  background-color: #fa0303;
-  text-align: center;
+  border-color: #fa0303;
 }
 
 .aboutme-info {
@@ -311,6 +310,7 @@ ul {
   text-align: center;
   padding: 1rem;
   color: gray;
+  margin-top: 3rem;
 }
 
 .Image-logo {
@@ -320,9 +320,9 @@ ul {
   margin: 0 0.8rem;
 }
 
-hr {
+/* hr {
   margin: 3rem 0;
-}
+} */
 
 .Previous-events h3 {
   text-align: center;
@@ -334,10 +334,11 @@ hr {
 .event-line {
   width: 5%;
   margin: 0 auto;
-  background-color: #fa0404;
+  border-color: #fa0404;
 }
 
 .Previous-events p {
+  font-family: 'Dosis', sans-serif;
   color: gray;
   text-align: center;
   padding: 1.5rem 0;
@@ -491,7 +492,7 @@ hr {
   }
 
   .nav-last .nav-last_img {
-    margin-right: 16rem;
+    margin-right: 21rem;
   }
 
   .nav-last ul li a {
@@ -631,10 +632,12 @@ hr {
 
   .contact {
     padding: 2rem;
+    margin-top: 1rem;
   }
 
   .email {
-    padding: 1.2rem;
+    padding: 2rem;
+    margin-top: 1rem;
   }
 
   .aboutme-paragraph {
@@ -642,8 +645,9 @@ hr {
   }
 
   .aboutme-line {
-    margin-top: 1.5rem;
-    width: 4%;
+    width: 5%;
+    margin: 0 auto;
+    border-color: #fa0404;
   }
 
   .Image-logo {
@@ -674,6 +678,6 @@ hr {
 
   .last-footer {
     display: flex;
-    gap: 40%;
+    gap: 60%;
   }
 }
