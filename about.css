@@ -16,6 +16,10 @@
   margin-bottom: -2rem;
 }
 
+.last-footer p {
+  width: 90%;
+}
+
 .desktop {
   display: none;
 }
@@ -23,6 +27,10 @@
 @media (min-width: 768px) {
   .mobile {
     display: none;
+  }
+
+  .desktop {
+    display: block;
   }
 
   .last-footer {
