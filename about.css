@@ -9,23 +9,41 @@
 }
 
 .last-footer {
-  background-color: black;
-  color: aliceblue;
+  color: black;
+  background: aliceblue;
   padding: 2rem;
   gap: 10%;
   margin-bottom: -2rem;
 }
 
+.desktop {
+  display: none;
+}
+
 @media (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
+
   .last-footer {
     background-color: black;
     padding: 3rem;
-    gap: 55%;
+    gap: 35%;
     margin-bottom: -4rem;
+  }
+
+  .partner {
+    display: none;
   }
 
   .para-footer {
     color: aliceblue;
     margin: auto  0;
+  }
+
+  .last-footer .para-footer {
+    font-family: 'Inter', serif;
+    margin-top: 1rem;
+    color: white;
   }
 }
