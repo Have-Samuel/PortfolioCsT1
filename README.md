@@ -21,10 +21,10 @@
 - CSS.
 - JavaScript
 - Check the code with Linters tests:
-  _Webhint_
-  _Stylelint_
-  _Lighthouse_
-  _esLint_
+  - Webhint
+  - Stylelint
+  - Lighthouse
+  - esLint
 
 ## Live Demo
 
