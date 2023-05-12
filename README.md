@@ -43,9 +43,9 @@
 
 👤 **Have Samuel**
 
-- GitHub: [@githubhandle](https://github.com/)
-- Twitter: [@twitterhandle](https://twitter.com/home)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/feed/)
+- GitHub: [Have](https://github.com/)
+- Twitter: [@samie1](https://twitter.com/home)
+- LinkedIn: [Samuel](https://www.linkedin.com/feed/)
 
 ## 🤝 Contributing
 
